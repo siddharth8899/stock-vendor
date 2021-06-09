@@ -1,0 +1,10 @@
+insert into stock values (1,'coke', 1050,2);
+insert into stock values(2,'pepsi', 9050,1);
+insert into stock values(3,'sprite', 1950,3);
+insert into stock values(4,'fanta', 1750,1);
+insert into stock values(5,'dew', 1500,4);
+insert into stock values(6,'fruity', 2050,1);
+insert into stock values(7,'maza', 2450,4);
+insert into stock values(8,'limca', 2500,1);
+insert into stock values(9,'soda', 2000,3);
+insert into stock values(10,'water', 1500,5);

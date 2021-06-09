@@ -1,0 +1,9 @@
+server:
+  port: 3000
+spring:
+  application:
+    name: vendor-service
+
+eureka:
+  instance:
+    hostname: localhost

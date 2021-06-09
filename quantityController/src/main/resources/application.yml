@@ -1,0 +1,10 @@
+server:
+  port: 4000
+
+spring:
+  application:
+    name: quantity-controller
+
+eureka:
+  instance:
+    hostname: localhost

@@ -1,0 +1,25 @@
+server:
+  port: 8999
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        -  id:
+           uri: lb://STOCK-SERVICE
+           predicates:
+             -  Path= /stocks/**
+        -  id:
+           uri: lb://VENDOR-SERVICE
+           predicates:
+             -  Path= /vendors/**
+        -  id:
+           uri: lb://QUANTITY-CONTROLLER
+           predicates:
+               -  Path= /qtyController/**
+
+eureka:
+  instance:
+    hostname: localhost
